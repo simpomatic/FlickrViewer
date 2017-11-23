@@ -1,10 +1,23 @@
-# That Young Flickr Photo Viewer
+﻿using System;
+using System.Windows.Forms;
 
-~~Simplistic~~ Elegant Windows Forms application that let's a user search, 
-for images on their desktop, provided they have an API which can be gotten
-by visiting [this link] (http://www.flickr.com/services/apps/create/apply).
+namespace FlickrViewer
+{
+    static class Program
+   {
+      /// <summary>
+      /// The main entry point for the application.
+      /// </summary>
+      [STAThread]
+      static void Main()
+      {
+         Application.EnableVisualStyles();
+         Application.SetCompatibleTextRenderingDefault( false );
+         Application.Run( new FlickrViewerForm() );
+      }
+   }
+}
 
-```c#
 /**************************************************************************
  * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
  * Pearson Education, Inc. All Rights Reserved.                           *
@@ -19,4 +32,3 @@ by visiting [this link] (http://www.flickr.com/services/apps/create/apply).
  * consequential damages in connection with, or arising out of, the       *
  * furnishing, performance, or use of these programs.                     *
  **************************************************************************/
- ```
