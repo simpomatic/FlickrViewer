@@ -2,7 +2,7 @@
 
 ~~Simplistic~~ Elegant Windows Forms application that let's a user search, 
 for images on their desktop, provided they have an API which can be gotten
-by visiting [this link] (http://www.flickr.com/services/apps/create/apply).
+by visiting [this link](http://www.flickr.com/services/apps/create/apply).
 
 ```c#
 /**************************************************************************
